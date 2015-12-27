@@ -1,0 +1,35 @@
+{
+  "name": "mocha-rbase",
+  "version": "0.0.0",
+  "description": "R:BASE utilities for the Mocha test framework",
+  "author": {
+    "name": "Rafee Memon",
+    "email": "rafeememon@gmail.com",
+    "url": "https://github.com/rafeememon/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rbase/mocha-rbase.git"
+  },
+  "license": "MIT",
+  "homepage": "http://github.com/rbase/mocha-rbase",
+  "keywords": [
+    "mocha",
+    "rbase"
+  ],
+  "files": [
+    "*.md",
+    "lib"
+  ],
+  "main": "./lib",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "rwebreports": "git://github.com/rbase/node-rwebreports.git#v0.2.0",
+    "temp": "^0.8.3"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
